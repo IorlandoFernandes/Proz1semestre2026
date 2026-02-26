@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Catalogo de Filmes</title>
+    <link rel="stylesheet" href="css/style.css" >
+    <script src="js/main.js" defer></script>
+</head>
+<body>
+    <header class="header">
+        <div class="container header-conteudo">
+            <h1 class="logo"><span>LISTA DE FILMES E SERIES</span></h1>
+            <nav class="menu">
+                <a href="#" id="inicio">Inicio</a>
+                <a href="#" id="filmes">Filmes</a>
+                <a href="#" id="series">Séries</a>
+            </nav>
+        </div>
+
+    </header>
+    <main>
+        <section class="pesquisa-section">
+            <div class="container pesquisa-conteudo">
+                <input type="text" id="campoPesquisa" placeholder="Pesquisar por filmes ou séries">
+                <button class="pesquisa-button" id="botaoPesquisa">
+                    <img src="assets/icones/search_24dp_E3E3E3_FILL0_wght0_GRAD0_opsz24.svg" alt="Pesquisar">
+                </button>
+
+            </div>
+        </section>  
+        <section class="exibeFilme-section">
+            <div id="filmesGrid"></div>
+        </section>      
+    </main>
+    <footer class="footer">
+        <p>Desenvolvido por Iorlando ©2026</p>
+    </footer>  
+    
+</body>
+</html>
